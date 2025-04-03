@@ -1,0 +1,12 @@
+{
+    "name": "node-docker-secrets",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "crypto": "^1.0.1",
+      "dotenv": "^16.4.5"
+    },
+    "scripts": {
+      "start": "node index.js"
+    }
+  }

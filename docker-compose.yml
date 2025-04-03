@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    env_file:
+      - docker-compose-env.env
+    volumes:
+        - ./.env:/app/.env  
+    command: ["node", "app.js"]    
